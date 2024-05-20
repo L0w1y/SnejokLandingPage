@@ -1,7 +1,7 @@
 import { AvatarImage, AvatarFallback, Avatar } from "@/app/components/ui/avatar"
 import { Badge } from "@/app/components/ui/badge"
 import { Button } from "@/app/components/ui/button"
-import Image from "next/image"
+// import Image from "next/image"
 import Link from "next/link"
 import AvatarPicture from "../public/placeholder-avatar.jpg"
 import Placeholder from "../public/placeholder.svg"

@@ -1,10 +1,10 @@
 import { AvatarImage, AvatarFallback, Avatar } from "@/app/components/ui/avatar"
 import { Badge } from "@/app/components/ui/badge"
 import { Button } from "@/app/components/ui/button"
-// import Image from "next/image"
+import Image from "next/image"
 import Link from "next/link"
-import AvatarPicture from "../public/placeholder-avatar.jpg"
-import Placeholder from "../public/placeholder.svg"
+// import AvatarPicture from "../public/placeholder-avatar.jpg"
+// import Placeholder from "../public/placeholder.svg"
 import { JSX, SVGProps } from "react"
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
     <div key="1" className="flex flex-col items-center gap-6 p-6 sm:p-8 md:p-10">
       <div className="flex items-center gap-6">
         <Avatar className="h-20 w-20">
-          <AvatarImage alt="@freelancer" src={AvatarPicture} />
+          <AvatarImage alt="@freelancer" src="/placeholder-avatar.jpg" />
           <AvatarFallback>SK</AvatarFallback>
         </Avatar>
         <div className="grid gap-2">
@@ -36,28 +36,28 @@ export default function Home() {
               alt="Portfolio item"
               className="aspect-[4/3] rounded-lg object-cover"
               height={150}
-              src={Placeholder}
+              src="/placeholder.svg"
               width={200}
             />
             <Image
               alt="Portfolio item"
               className="aspect-[4/3] rounded-lg object-cover"
               height={150}
-              src={Placeholder}
+              src="/placeholder.svg"
               width={200}
             />
             <Image
               alt="Portfolio item"
               className="aspect-[4/3] rounded-lg object-cover"
               height={150}
-              src={Placeholder}
+              src="/placeholder.svg"
               width={200}
             />
             <Image
               alt="Portfolio item"
               className="aspect-[4/3] rounded-lg object-cover"
               height={150}
-              src={Placeholder}
+              src="/placeholder.svg"
               width={200}
             />
           </div>

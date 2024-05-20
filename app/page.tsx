@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { AvatarImage, AvatarFallback, Avatar } from "@/app/components/ui/avatar"
 import { Badge } from "@/app/components/ui/badge"
 import { Button } from "@/app/components/ui/button"
@@ -11,7 +12,7 @@ export default function Home() {
       <div className="flex items-center gap-6">
         <Avatar className="h-20 w-20">
           <AvatarImage alt="@freelancer" src="/placeholder-avatar.jpg" />
-          <AvatarFallback>SJ</AvatarFallback>
+          <AvatarFallback>SK</AvatarFallback>
         </Avatar>
         <div className="grid gap-2">
           <h1 className="text-3xl font-bold">Snejok</h1>

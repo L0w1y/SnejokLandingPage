@@ -2,6 +2,7 @@ import { AvatarImage, AvatarFallback, Avatar } from "@/app/components/ui/avatar"
 import { Badge } from "@/app/components/ui/badge"
 import { Button } from "@/app/components/ui/button"
 import Link from "next/link"
+import Image from "next/image"
 import { JSX, SVGProps } from "react"
 
 export default function Home() {
@@ -29,28 +30,28 @@ export default function Home() {
         <div className="grid gap-2">
           <h2 className="text-lg font-semibold">Portfolio</h2>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
-            <img
+            <Image
               alt="Portfolio item"
               className="aspect-[4/3] rounded-lg object-cover"
               height={150}
               src="/placeholder.svg"
               width={200}
             />
-            <img
+            <Image
               alt="Portfolio item"
               className="aspect-[4/3] rounded-lg object-cover"
               height={150}
               src="/placeholder.svg"
               width={200}
             />
-            <img
+            <Image
               alt="Portfolio item"
               className="aspect-[4/3] rounded-lg object-cover"
               height={150}
               src="/placeholder.svg"
               width={200}
             />
-            <img
+            <Image
               alt="Portfolio item"
               className="aspect-[4/3] rounded-lg object-cover"
               height={150}

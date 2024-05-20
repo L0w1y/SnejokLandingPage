@@ -1,4 +1,3 @@
-import Image from "next/image"
 import { AvatarImage, AvatarFallback, Avatar } from "@/app/components/ui/avatar"
 import { Badge } from "@/app/components/ui/badge"
 import { Button } from "@/app/components/ui/button"

@@ -10,7 +10,7 @@ export default function Home() {
     <div key="1" className="flex flex-col items-center gap-6 p-6 sm:p-8 md:p-10">
       <div className="flex items-center gap-6">
         <Avatar className="h-20 w-20">
-          <AvatarImage alt="@freelancer" src="/resources/placeholder-avatar.jpg" />
+          <AvatarImage alt="@freelancer" src="/placeholder-avatar.jpg" />
           <AvatarFallback>SK</AvatarFallback>
         </Avatar>
         <div className="grid gap-2">
@@ -41,21 +41,21 @@ export default function Home() {
               alt="Portfolio item"
               className="aspect-[4/3] rounded-lg object-cover"
               height={150}
-              src="/resources/placeholder.svg"
+              src="/placeholder.svg"
               width={200}
             />
             <Image
               alt="Portfolio item"
               className="aspect-[4/3] rounded-lg object-cover"
               height={150}
-              src="/resources/placeholder.svg"
+              src="/placeholder.svg"
               width={200}
             />
             <Image
               alt="Portfolio item"
               className="aspect-[4/3] rounded-lg object-cover"
               height={150}
-              src="/resources/placeholder.svg"
+              src="/placeholder.svg"
               width={200}
             />
           </div>

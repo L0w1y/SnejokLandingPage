@@ -14,7 +14,7 @@ export default function Home() {
           <AvatarFallback>SK</AvatarFallback>
         </Avatar>
         <div className="grid gap-2">
-          <h1 className="text-3xl font-bold">Snejok</h1>
+          <h1 className="text-3xl font-bold">SnejOk</h1>
           <div className="flex flex-wrap gap-2">
             <Badge variant="outline">Furry artist</Badge>
             <Badge variant="outline">3D avatars</Badge>
@@ -68,11 +68,11 @@ export default function Home() {
               following methods:
             </p>
             <div className="flex flex-col gap-2 sm:flex-row">
-              <Button size="sm" variant="outline">
+              <Button size="sm" variant="outline" onClick={console.log("Here's your donation allerts!")}>
                 <CreditCardIcon className="mr-2 h-4 w-4" />
                 Donation allerts
               </Button>
-              <Button size="sm" variant="outline">
+              <Button size="sm" variant="outline" onClick={console.log("Here's your bit transfer system!")}>
                 <BitcoinIcon className="mr-2 h-4 w-4" />
                 Crypto
               </Button>

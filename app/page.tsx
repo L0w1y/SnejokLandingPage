@@ -1,9 +1,9 @@
 import { AvatarImage, AvatarFallback, Avatar } from "@/app/components/ui/avatar"
 import { Badge } from "@/app/components/ui/badge"
 import { Button } from "@/app/components/ui/button"
-import Image from "next/image"
 import Link from "next/link"
 import { JSX, SVGProps } from "react"
+import Image from "next/image"
 
 export default function Home() {
   return (
